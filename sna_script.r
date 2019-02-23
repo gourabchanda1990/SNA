@@ -5,3 +5,4 @@ if(length(packages.diff)>0){
   install.packages(packages.diff)
 }
 invisible(sapply(packages.req,library,character.only=T))
+#read the input file into the script
